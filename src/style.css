@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'GreedCondensed';
+  src: url('@/assets/fonts/GreedCondensed-Regular.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'GreedCondensed';
+  src: url('@/assets/fonts/GreedCondensed-Light.otf');
+  font-weight: 400;
+}
+
+@theme {
+  --font-sans: 'GreedCondensed', system-ui, sans-serif;
+  --font-geist: 'Geist', system-ui, sans-serif;
+
+  /* DaisyUI theme colors */
+  --color-primary: #0b1a12;
+  --color-primary-content: oklch(93% 0.034 272.788);
+  --color-secondary: #b4ff00;
+  --color-secondary-content: oklch(94% 0.028 342.258);
+  --color-accent: #398508;
+  --color-accent-content: #0b1a12;
+  --color-neutral: #f4f4f0;
+  --color-neutral-content: #dee1d4;
+  --color-info: oklch(74% 0.16 232.661);
+  --color-info-content: oklch(29% 0.066 243.157);
+  --color-success: oklch(76% 0.177 163.223);
+  --color-success-content: oklch(37% 0.077 168.94);
+  --color-warning: oklch(82% 0.189 84.429);
+  --color-warning-content: oklch(41% 0.112 45.904);
+  --color-error: oklch(71% 0.194 13.428);
+  --color-error-content: oklch(27% 0.105 12.094);
+}
+
+body {
+  font-family: var(--font-sans);
+}
