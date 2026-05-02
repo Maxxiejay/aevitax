@@ -120,7 +120,7 @@ input[type='range'].slider-thumb::-ms-thumb {
   left: 0;
   right: 0;
   height: 6px;
-  background: #D8FF4F;
+  background: #d8ff4f;
   border-radius: 3px;
   transform: translateY(-50%);
   z-index: 1;
